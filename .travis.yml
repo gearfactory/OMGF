@@ -23,7 +23,7 @@ after_script:
   - git config user.email "leemast3r@outlook.com"
   - git add .
   - git commit -m "Gear Factory Blogs Travis CI Auto Build at $(date +'%Y-%m-%d %H:%M:%S')"
-  - git push --force --quiet "https://${REPO}@${TOKEN}" master:master
+  - git push --force "https://${REPO}@${TOKEN}" master:master
 
 branches:
   only:
