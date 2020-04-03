@@ -31,7 +31,6 @@ branches:
 
 notifications:
   slack:
-    if: branch = master
     rooms:
       - gear-infra:Xrs4v2D2Rla8xWPBoKrMhqmp#general
       - gear-infra:Xrs4v2D2Rla8xWPBoKrMhqmp#random
