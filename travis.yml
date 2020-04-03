@@ -1,0 +1,37 @@
+language: node_js
+node_js:
+  - lts/*
+
+cache:
+  directories:
+    - node_modules
+
+before_install:
+  - export TZ='Asia/Shanghai'
+
+install:
+  - npm install hexo-cli -g
+  - npm install
+
+script:
+  - hexo g
+
+after_script:
+  - cd ./public
+  - git init
+  - git config user.name "leemaster"
+  - git config user.email "leemast3r@outlook.com"
+  - git add .
+  - git commit -m "Gear Factory Blogs Travis CI Auto Build at $(date +'%Y-%m-%d %H:%M:%S')"
+  - git push --force --quiet "https://${REPO}@${TOKEN}" master:master
+
+branches:
+  only:
+    - master
+
+notifications:
+  slack:
+    if: branch = master
+    rooms:
+	  - gear-infra:Xrs4v2D2Rla8xWPBoKrMhqmp#general
+	  - gear-infra:Xrs4v2D2Rla8xWPBoKrMhqmp#random
