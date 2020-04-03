@@ -35,3 +35,4 @@ notifications:
     rooms:
       - gear-infra:Xrs4v2D2Rla8xWPBoKrMhqmp#general
       - gear-infra:Xrs4v2D2Rla8xWPBoKrMhqmp#random
+      - gear-infra:Xrs4v2D2Rla8xWPBoKrMhqmp#infrastructure-software
