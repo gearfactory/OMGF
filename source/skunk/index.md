@@ -11,4 +11,5 @@ Skunk 是一个C++编写的高效的Reactor模型的网络通信框架。
 
 ## 设计和源码分析
 
-* [Skunk设计之Buffer](https://gearfacoty.github.io/p/3ca8.html)
+* [Skunk设计——Buffer](https://gearfacoty.github.io/p/3ca8.html)
+* [Skunk设计——Codec](https://gearfacoty.github.io/p/4239.html)
