@@ -1,6 +1,6 @@
 # Gear Factory Blogs Repo 
 
-[![Build Status](https://travis-ci.org/gearfactory/OMGF.svg?branch=master)](https://travis-ci.org/gearfactory/OMGF)
+[![Build Status](https://travis-ci.org/gearfactory/GearFactoryZoo.svg?branch=master)](https://travis-ci.org/gearfactory/GearFactoryZoo)
 
 *** 
 
