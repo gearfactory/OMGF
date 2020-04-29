@@ -24,6 +24,8 @@ source
   hamster   // the Hamster LC3 virtual machine project page 
   spider    // the Spider Raft framework project page
 
+  weekwork  // weekly work report
+
   course-datastructure // the Datastructure Labs
   course-database      // the Rabbit KV Database Labs
 ```
