@@ -1,7 +1,9 @@
 ---
 title: 2020 Q2 M5 W1
+categories:
+  - weekwork
+abbrlink: cb66
 date: 2020-04-30 03:28:36
-categories: [weekwork]
 ---
 
 打个样
