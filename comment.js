@@ -14,7 +14,7 @@ const config = {
     // sitemap.xml的路径，commit.js放置在根目录下，无需修改，其他情况自行处理
     sitemapUrl: path.resolve(__dirname, "./public/sitemap.xml"),
     kind: "Gitalk",  // "Gitalk" or "Gitment"，
-    baseUrl: "https://gearfactory.github.io/"
+    baseUrl: "https://gearfactory.github.io"
 };
 let issuesUrl = `https://api.github.com/repos/${config.username}/${config.repo}/issues?access_token=${config.token}`;
 
