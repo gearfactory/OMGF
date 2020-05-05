@@ -5,11 +5,11 @@ const url = require("url");
 const xmlParser = require("xml-parser");
 const YAML = require("yamljs");
 const cheerio = require("cheerio");
-const md5 = require("md5");
+console.log(process.env.ACCESS_TOKEN)
 // 根据自己的情况进行配置
 const config = {
     username: "gearfactory", // GitHub 用户名
-    token: "edf3f0bed83201ff2383541d53f7ac9b4a6525c7",  // GitHub Token
+    token: process.env.ACCESS_TOKEN,  // GitHub Token
     repo: "gearfactory.github.io",  // 存放 issues的git仓库
     // sitemap.xml的路径，commit.js放置在根目录下，无需修改，其他情况自行处理
     sitemapUrl: path.resolve(__dirname, "./public/sitemap.xml"),
@@ -19,7 +19,7 @@ const config = {
 let issuesUrl = `https://api.github.com/repos/${config.username}/${config.repo}/issues?access_token=${config.token}`;
 
 let requestGetOpt = {
-    url: `${issuesUrl}&page=1&per_page=1000`,
+    url: `${issuesUrl}&page=1&per_page=10000`,
     json: true,
     headers: {
         "User-Agent": "github-user"
@@ -45,6 +45,7 @@ console.log("开始初始化评论...");
         
         console.log("开始获取已经初始化的issues:");
         let issues = await send(requestGetOpt);
+        console.log(issues)
         console.log(`已经存在${issues.length}个issues`);
         
         let notInitIssueLinks = urls.filter((link) => {
@@ -66,7 +67,7 @@ console.log("开始初始化评论...");
                     let html = await send({ ...requestGetOpt, url: item });
                     let title = cheerio.load(html)("title").text();
                     let pathLabel = url.parse(item).path;
-                    pathLabel = md5(config.baseUrl + pathLabel);//中文过长所以要md5
+                    pathLabel = pathLabel;
                     let body = `${item}<br><br>${websiteConfig.description}`;
                     let form = JSON.stringify({ body, labels: [config.kind, pathLabel], title });
                     return send({ ...requestPostOpt, form });
