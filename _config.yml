@@ -8,7 +8,7 @@ subtitle: 'Coding makes us happy every day !'
 description: ''
 keywords:
 author: Gear Factory Team
-language: en
+language: zh-CN
 timezone: 'UTC'
 
 # URL
@@ -92,7 +92,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: pure
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -105,3 +105,21 @@ abbrlink:
 
 # 更改 permalink 值
 permalink: p/:abbrlink.html 
+
+# MathJax
+markdown_it_plus:
+  highlight: true
+  html: true
+  xhtmlOut: true
+  breaks: true
+  langPrefix:
+  linkify: true
+  typographer:
+  quotes: “”‘’
+  plugins:
+    - plugin:
+        name: markdown-it-katex
+        enable: false
+    - plugin:
+        name: markdown-it-mark
+        enable: true  
