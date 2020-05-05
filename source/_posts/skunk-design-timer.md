@@ -1,5 +1,5 @@
 ---
-title: Skunk设计（定时系统）
+title: Skunk设计 (定时和超时)
 categories:
   - skunk
 tags:

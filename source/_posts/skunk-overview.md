@@ -35,6 +35,7 @@ Skunk的定位是一个用在分布式系统中提供通信能力的网络通信
 
 ## Skunk 的基本使用
 
+TODO: 
 
 ## Skunk 需要大家的帮助
 
@@ -43,4 +44,4 @@ Skunk目前是一个基于线程模型实现的Reactor，而且内部的内存�
 1. 实现自己的内存池
 2. 利用协程实现更高一层的吞吐
 
-不过目前Skunk应该能满足Gear Factory的日常造轮子需求，所以大家目前没有投入实现来关心这两个feature，所以各位看官姥爷要不提点PR，我们一起帮[@leemaster](https://www.github.com/leemaster)完成他提出来的这两个feature吧！
+不过目前Skunk应该能满足Gear Factory的日常造轮子需求，所以大家目前没有投入实现来关心这两个feature，所以各位看官姥爷要不提点PR，我们一起帮Skunk的性能更上一层楼吧！

@@ -1,5 +1,5 @@
 ---
-title: Skunk设计（Buffer）
+title: Skunk设计 (Buffer缓冲)
 categories:
   - skunk
 tags:

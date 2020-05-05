@@ -1,5 +1,5 @@
 ---
-title: Skunk设计（Channel信道）
+title: Skunk设计 (Channel信道)
 categories:
   - skunk
 tags:
