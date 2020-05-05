@@ -1,6 +1,5 @@
 ---
 title: 2020 Q2 M5 W1
-mathjax: true
 categories:
   - weekwork
 abbrlink: cb66
@@ -31,12 +30,6 @@ date: 2020-04-30 03:28:36
 
 1. [Reactor 模型](google文档连接)
 
-
-# 公式测试
-$$
-\omega
-E_{i}=m_ic^2
-$$
 
 
 

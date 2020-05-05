@@ -1,5 +1,5 @@
 ---
-title: Skunk设计——Buffer
+title: Skunk设计 (Buffer缓冲)
 categories:
   - skunk
 tags:
@@ -9,7 +9,7 @@ abbrlink: 3ca8
 date: 2020-04-18 18:50:39
 ---
 
-Skunk中数据的信使————@[Leemaster](https://www.github.com/leemaster)
+Skunk中数据的信使 [@Leemaster](https://www.github.com/leemaster)
 
 <!--more-->
 
