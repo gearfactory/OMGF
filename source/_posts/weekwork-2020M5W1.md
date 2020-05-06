@@ -6,29 +6,28 @@ abbrlink: cb66
 date: 2020-04-30 03:28:36
 ---
 
-打个样
+2020 Q2 M5 W1 工作进展
 
 <!--more-->
 
 # 进行中
 
-* Skunk by leemaster
-* Frog by Adennan
-
-# 项目相关
-
 ## Skunk 
 
-1. Skunk EventLoop 相关能力研发完成
-2. Skunk Blogs Buffer 和 EventLoop 相关设计文档的markdown
+@leemaster
+
+1. 事件循环主体开发完成，在测试
+2. 封装Timer和Signal
 
 ## Frog
 
-1. Russ Cox Rgexp设计分析
+1. 完成了NFA、DFA分享
+
 
 # 分享
 
 1. [Reactor 模型](google文档连接)
+2. [从NFA到DFA]()
 
 
 

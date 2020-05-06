@@ -9,7 +9,7 @@ abbrlink: 5ba1
 date: 2020-05-03 04:39:48
 ---
 
-聊聊字节序吧 [@Leemaster](https://www.github.com/leemaster)
+聊聊字节序吧 [@leemaster](https://www.github.com/leemaster)
 
 <!--more-->
 
