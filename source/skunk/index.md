@@ -26,7 +26,7 @@ date: 2020-04-18 18:45:06
 * [Skunk原理 (I/O)](https://gearfacoty.github.io/p/ae7b.html)
 * [Skunk原理 (Reactor模型)](https://gearfacoty.github.io/p/a21.html)
 * [Skunk原理 (线程)](https://gearfacoty.github.io/p/6814.html)
-* [Skunk原理 (异步模型)](https://gearfacoty.github.io/p/a6cb.html)
+* [Skunk原理 (Future/Promise)](https://gearfacoty.github.io/p/a6cb.html)
 * [Skunk原理 (字节序)](https://gearfacoty.github.io/p/5ba1.html)
 
 ## Skunk Design
@@ -36,6 +36,7 @@ date: 2020-04-18 18:45:06
 * [Skunk设计 (Buffer缓冲)](https://gearfacoty.github.io/p/3ca8.html)
 * [Skunk设计 (Channel信道)](https://gearfacoty.github.io/p/42ab.html)
 * [Skunk设计 (定时和超时)](https://gearfacoty.github.io/p/104c.html)
+* [Skunk设计 (信号处理)](https://gearfacoty.github.io/p/f410.html)
 * [Skunk设计 (消息编解码)](https://gearfacoty.github.io/p/4239.html)
 * [Skunk设计 (编程接口)](https://gearfacoty.github.io/p/972a.html)
 
@@ -43,3 +44,4 @@ date: 2020-04-18 18:45:06
 
 * [Skunk新特性（Arena内存池）](https://gearfacoty.github.io/p/a9e7.html)
 * [Skunk新特性（协程）](https://gearfacoty.github.io/p/154e.html)
+* [Skunk新特性（多级线程池）](https://gearfacoty.github.io/p/7a43.html)

@@ -9,7 +9,7 @@ abbrlink: 972a
 date: 2020-05-03 04:17:55
 ---
 
-Skunk的编程接口。
+Skunk的编程接口 [@leemaster](https://www.github.com/leemaster)
 
 <!--more-->
 
