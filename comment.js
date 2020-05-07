@@ -5,6 +5,7 @@ const url = require("url");
 const xmlParser = require("xml-parser");
 const YAML = require("yamljs");
 const cheerio = require("cheerio");
+const md5 = require('md5')
 console.log(process.env.ACCESS_TOKEN)
 // 根据自己的情况进行配置
 const config = {
@@ -67,9 +68,9 @@ console.log("开始初始化评论...");
                     let html = await send({ ...requestGetOpt, url: item });
                     let title = cheerio.load(html)("title").text();
                     let pathLabel = url.parse(item).path;
-                    pathLabel = pathLabel;
+                    pathLabel = pathLabel
                     let body = `${item}<br><br>${websiteConfig.description}`;
-                    let form = JSON.stringify({ body, labels: [pathLabel], title });
+                    let form = JSON.stringify({ body, labels: [pathLabel, md5(pathLabel)], title });
                     return send({ ...requestPostOpt, form });
                 });
                 console.log(`已完成${initRet.length}个！`);
