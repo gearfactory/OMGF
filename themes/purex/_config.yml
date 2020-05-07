@@ -20,7 +20,6 @@ menu_icons:
 
 # rss
 rss: /atom.xml
-
 # Site
 site:
   logo:
@@ -28,7 +27,7 @@ site:
     width: 40
     height: 40
     url: ../images/logo.png
-  title: Hexo # 页面title
+  title: Gear Factory # 页面title
   favicon: /favicon.png
   copyright: true # 底部版权
 
@@ -158,7 +157,7 @@ pv:
         
 # wordcount
 postCount:
-  enable: false
+  enable: true
   wordcount: true  # 文章字数统计
   min2read: true  # 阅读时长预计 
 
