@@ -70,7 +70,7 @@ console.log("开始初始化评论...");
                     let pathLabel = url.parse(item).path;
                     pathLabel = pathLabel
                     let body = `${item}<br><br>${websiteConfig.description}`;
-                    let form = JSON.stringify({ body, labels: ['Gitalk',pathLabel, md5(pathLabel)], title });
+                    let form = JSON.stringify({ body, labels: [pathLabel, md5(pathLabel)], title });
                     return send({ ...requestPostOpt, form });
                 });
                 console.log(`已完成${initRet.length}个！`);
