@@ -15,6 +15,7 @@ install:
 
 script:
   - hexo g
+  - node ./comment.js
 
 after_script:
   - cd ./public

@@ -12,15 +12,26 @@
     "version": "4.2.0"
   },
   "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
     "hexo": "^4.0.0",
     "hexo-abbrlink": "^2.0.5",
     "hexo-generator-archive": "^1.0.0",
+    "hexo-generator-baidu-sitemap": "^0.1.6",
     "hexo-generator-category": "^1.0.0",
+    "hexo-generator-feed": "^2.2.0",
     "hexo-generator-index": "^1.0.0",
+    "hexo-generator-json-content": "^4.2.3",
+    "hexo-generator-sitemap": "^2.0.0",
     "hexo-generator-tag": "^1.0.0",
     "hexo-renderer-ejs": "^1.0.0",
-    "hexo-renderer-marked": "^2.0.0",
+    "hexo-renderer-markdown-it-plus": "^1.0.4",
     "hexo-renderer-stylus": "^1.1.0",
-    "hexo-server": "^1.0.0"
+    "hexo-server": "^1.0.0",
+    "hexo-wordcount": "^6.0.1",
+    "markdown-it-katex": "^2.0.3",
+    "md5": "^2.2.1",
+    "request": "^2.88.2",
+    "xml-parser": "^1.2.1",
+    "yamljs": "^0.3.0"
   }
 }
