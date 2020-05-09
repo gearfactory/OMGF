@@ -19,7 +19,7 @@ date: 2020-05-07 03:59:23
 
 # Adennan
 
-在校学生，热爱在coding中从无到有的创造过程。很幸运和志同道合的朋友们组队打怪升级，目前在攻关编译原理和操作系统，现参与完成[Hamster](https://github.com/gearfactory/Hamster)项目。
+在校学生，热爱在coding中从无到有的创造过程。很幸运和志同道合的朋友们组队打怪升级，目前在攻关编译原理和操作系统，现参与[Hamster](https://github.com/gearfactory/Hamster)项目。
 
 # zhuojiuw
 
@@ -27,6 +27,6 @@ date: 2020-05-07 03:59:23
 
 # lining4069
 
-在校学生，目前在[Gear Factory](https://github.com/gearfactory)仓库中和`Zzzzzzcm`以及`Adennan`参与完成[Hamster](https://github.com/gearfactory/Hamster)项目;以及在Gear Factory中的C++ team中参与C++语言的编程学习，以便使用C++语言实现基于little computer 3指令集的编译器。
+在校学生，目前在[Gear Factory](https://github.com/gearfactory)仓库中和`Zzzzzzcm`以及`Adennan`参与[Hamster](https://github.com/gearfactory/Hamster)项目;以及在Gear Factory中的C++ team中参与C++语言的编程学习，以便使用C++语言实现基于little computer 3指令集的编译器。
 
 # zx635
